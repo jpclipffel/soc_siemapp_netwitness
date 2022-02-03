@@ -1,0 +1,42 @@
+{
+  "id": "57f4b845-ed58-4955-88f3-cc36d0ec7df8",
+  "severity":9,
+  "time": "2017-08-21T12:54:11Z",
+  "module_name" : "XLM - RSA lockme Login",
+  "events": [
+    {
+      "alias_host" : ["cacrsawdf001"],
+      "device_class" : "Analysis",
+      "device_ip" : "10.195.114.41",
+      "device_type" : "securityanalytics",
+      "did" : "cacrshddc001",
+      "esa_time" : 1503320051955,
+      "event_cat" : 1901000000,
+      "event_cat_name" : "Other.Default",
+      "event_desc" : "HttpRequest",
+      "event_name" : "HttpRequest",
+      "event_source_id" : "10.195.114.23:56005:152237",
+      "event_time" : 1503320048,
+      "event_time_str" : "Aug 21 2017 12:54:08",
+      "event_type" : "DATA_ACCESS",
+      "hardware_id" : "4ab8d853-3ed8-4565-96d6-16256915ea7a",
+      "index" : "{referrer\\=https://172.16.113.116/unified/dashboard, method\\=GET, userAgent\\=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0, queryString\\=, uri\\=/live/home/featured, remoteAddress\\=10.195.114.20}",
+      "level" : 4,
+      "medium" : 32,
+      "msg_id" : "securityanalytics",
+      "msg_vid" : "securityanalytics",
+      "privilege" : "Analysts+Analysts",
+      "process" : "SA_SERVER",
+      "product" : "Security Analytics Audit",
+      "result" : "Success \\n",
+      "rid" : 151892,
+      "service_name" : "SA_SERVER",
+      "sessionid" : 152237,
+      "severity" : "6",
+      "size" : 590,
+      "time" : 1503320048,
+      "user_src" : "lockme",
+      "version" : "10.6.3.2"
+    }
+  ]
+}

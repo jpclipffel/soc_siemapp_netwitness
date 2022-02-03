@@ -1,0 +1,1 @@
+<#-- SOC Excellium Alert Template --><#include "macros.ftl"/>{"id": "${id}", "severity":${severity}, "time": "${time?datetime?iso_utc}", "module_name" : "${moduleName}", "events": [<@json_value_of events?first/>]}
